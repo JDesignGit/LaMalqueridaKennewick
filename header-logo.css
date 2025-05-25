@@ -1,0 +1,17 @@
+/* header-logo.css */
+.logo-top {
+  text-align: center;
+  padding: 1rem;
+  background: #8B0000;
+}
+
+.logo-center {
+  max-width: 150px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .logo-center {
+    max-width: 120px;
+  }
+}
